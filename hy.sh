@@ -7,3 +7,4 @@ sudo pacman -S xf86-video-intel fzf
 cd ..
 git clone https://github.com/wildan-pratama/wildan-hyprland.git
 chmod +x wildan.sh
+./wildan.sh
