@@ -1,5 +1,12 @@
 
 #!/bin/sh
+cd wildan-hyprland
+sudo cp -r usr /
+sudo cp -r etc /
+cp -r .config ~/
+cp -r .local ~/
+cp -r .icons ~/
+cp -r .gtkrc-2.0 ~/
 yay -Syy sddm-git polkit hyprland-git waybar-hyprland-git alacritty rofi-lbonn-wayland-git \
 swayidle  swaybg swaylock-effects-git wl-clipboard mailcap networkmanager-dmenu-git wf-recorder \
 bc gtk-engine-murrine xfce-polkit dunst nwg-look xdg-desktop-portal-hyprland-git qt5-svg \
