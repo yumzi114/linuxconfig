@@ -4,3 +4,8 @@ GRUB_CMDLINE_LINUX_DEFAULT="amd_iommu=on iommu=pt isolcpus=2-7 nohz_full=2-7 rcu
 
 
 inter replace intel_iommu
+
+
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+
+https://dividebyzer0.gitlab.io/GPUpassthrough.html#what-you-need
