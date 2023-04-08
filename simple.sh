@@ -17,3 +17,4 @@ cd wildan-hyprland
 ./install.sh
 cd ..
 sudo cp hyprland.conf ~/.config/hypr/
+sudo cp windows-rule.conf ~/.config/hypr/
