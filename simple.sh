@@ -24,7 +24,6 @@ qt5-quickcontrols2 brightnessctl pipewire wireplumber grim slurp jq dunst \
 qt5-wayland qt6-wayland pastel networkmanager network-manager-applet noto-fonts-emoji wdisplays swww
 
 yay -Sy thunar thunar-archive-pluginfile-roller mpv geany viewnior mpc mpd ncmpcpp chromium neofetch
-sudo systemctl enable sddm.service
 sudo cp -r usr /
 sudo cp -r etc /
 cp -r .config ~/
@@ -34,4 +33,5 @@ cp -r .gtkrc-2.0 ~/
 cd ..
 sudo cp hyprland.conf ~/.config/hypr/
 sudo cp windows-rule.conf ~/.config/hypr/
+sudo systemctl enable sddm.service
 
