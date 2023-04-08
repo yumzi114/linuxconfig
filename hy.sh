@@ -6,6 +6,7 @@ yay -S gdb ninja gcc cmake meson libxcb xcb-proto xcb-util xcb-util-keysyms libx
 sudo pacman -S xf86-video-intel fzf
 cd ..
 git clone --recursive https://github.com/hyprwm/Hyprland
+git clone https://gitlab.freedesktop.org/wlroots/wlroots.git
 cd Hyprland
 sudo make install
 cd..
