@@ -1,4 +1,8 @@
 #!/bin/sh
+mkdir build && cd build
+git clone https://aur.archlinux.org/linux-vfio.git
+makepkg -si
+cd ..
 git clone https://aur.archlinux.org/yay-bin.git
 cd yay-bin
 makepkg -si
