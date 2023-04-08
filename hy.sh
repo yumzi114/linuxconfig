@@ -15,7 +15,7 @@ sudo cp examples/hyprland.desktop /usr/share/wayland-sessions/
 cd build
 sudo pc Hyperland /usr/bin/
 cd ..
-cd..
+cd ..
 git clone https://github.com/wildan-pratama/wildan-hyprland.git
 chmod +x wildan.sh
 ./wildan.sh
