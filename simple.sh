@@ -23,7 +23,7 @@ inetutils pamixer bluez-utils xdg-user-dirs pulsemixer pavucontrol qt5-graphical
 qt5-quickcontrols2 brightnessctl pipewire wireplumber grim slurp jq dunst \
 qt5-wayland qt6-wayland pastel networkmanager network-manager-applet noto-fonts-emoji wdisplays swww
 
-yay -S thunar thunar-archive-pluginfile-roller mpv geany viewnior mpc mpd ncmpcpp chromium
+yay -S thunar thunar-archive-pluginfile-roller mpv geany viewnior mpc mpd ncmpcpp chromium neofetch
 sudo systemctl enable sddm.service
 sudo cp -r usr /
 sudo cp -r etc /
