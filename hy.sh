@@ -7,8 +7,14 @@ sudo pacman -S xf86-video-intel fzf
 cd ..
 git clone --recursive https://github.com/hyprwm/Hyprland
 git clone https://gitlab.freedesktop.org/wlroots/wlroots.git
+sudo cp -r wlroots/ /usr/lib/
 cd Hyprland
 sudo make install
+sudo cp -r hyprctl/ /usr/bin/
+sudo cp examples/hyprland.desktop /usr/share/wayland-sessions/
+cd build
+sudo pc Hyperland /usr/bin/
+cd ..
 cd..
 git clone https://github.com/wildan-pratama/wildan-hyprland.git
 chmod +x wildan.sh
