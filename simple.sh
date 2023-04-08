@@ -33,5 +33,5 @@ cp -r .gtkrc-2.0 ~/
 cd ..
 sudo cp hyprland.conf ~/.config/hypr/
 sudo cp windows-rule.conf ~/.config/hypr/
-sudo systemctl enable sddm.service
+systemctl enable sddm.service
 
