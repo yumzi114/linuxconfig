@@ -22,8 +22,7 @@ swayidle  swaybg swaylock-effects-git wl-clipboard mailcap networkmanager-dmenu-
 bc gtk-engine-murrine xfce-polkit dunst nwg-look xdg-desktop-portal-hyprland-git qt5-svg \
 inetutils pamixer bluez-utils xdg-user-dirs pulsemixer pavucontrol qt5-graphicaleffects hyprland-scratchpad-git \
 qt5-quickcontrols2 brightnessctl pipewire wireplumber grim slurp jq dunst \
-qt5-wayland qt6-wayland pastel networkmanager network-manager-applet noto-fonts-emoji wdisplays swww \
-sway
+qt5-wayland qt6-wayland pastel networkmanager network-manager-applet noto-fonts-emoji wdisplays swww 
 
 yay -Sy thunar thunar-archive-pluginfile-roller mpv geany viewnior mpc mpd ncmpcpp
 sudo cp -r usr /
