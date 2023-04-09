@@ -18,3 +18,4 @@ yay -S alsa-utils
 create 
 /etc/modprobe.d/dsp.conf
 options snd_intel_dspcfg dsp_driver=1
+https://bbs.archlinux.org/viewtopic.php?id=258594
