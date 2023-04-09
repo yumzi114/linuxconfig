@@ -24,6 +24,6 @@ cd ..
 #sudo cp hyprland.conf ~/.config/hypr/
 #sudo cp windows-rule.conf ~/.config/hypr/
 yay -Rs xdg-desktop-portal-gnome
-yay -S sddm
-systemctl enable sddm.service
+#yay -S sddm
+#systemctl enable sddm.service
 
