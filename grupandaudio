@@ -12,7 +12,7 @@ https://dividebyzer0.gitlab.io/GPUpassthrough.html#what-you-need
 https://blog.desdelinux.net/en/install-intel-ati-and-nvidia-video-drivers-on-arch-linux/
 
 
-
+펌웨어 fwupd
 yay -S alsa-utils
 
 create 
