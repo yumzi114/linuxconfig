@@ -16,6 +16,7 @@ git clone https://github.com/wildan-pratama/wildan-hyprland.git
 cd wildan-hyprland
 
 ./install.sh
+yay -Rs xdg-desktop-portal-gnome
 #yay -Sy sddm-git polkit hyprland-git waybar-hyprland-git alacritty rofi-lbonn-wayland-git \
 #swayidle  swaybg swaylock-effects-git wl-clipboard mailcap networkmanager-dmenu-git wf-recorder \
 #bc gtk-engine-murrine xfce-polkit dunst nwg-look xdg-desktop-portal-hyprland-git qt5-svg \
