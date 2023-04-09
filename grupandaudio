@@ -10,3 +10,11 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg
 
 https://dividebyzer0.gitlab.io/GPUpassthrough.html#what-you-need
 https://blog.desdelinux.net/en/install-intel-ati-and-nvidia-video-drivers-on-arch-linux/
+
+
+
+yay -S alsa-utils
+
+create 
+/etc/modprobe.d/dsp.conf
+options snd_intel_dspcfg dsp_driver=1
