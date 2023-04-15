@@ -3,6 +3,8 @@
 GRUB_CMDLINE_LINUX_DEFAULT="intel_iommu=on iommu=pt isolcpus=2-7 nohz_full=2-7 rcu_nocbs=2-7  transparent_hugepage=never rd.driver.pre=vfio-pci vfio pci.ids=10de:21c4,10de:1aeb pcie_acs_override=downstream,multifunction"
 
 https://wiki.archlinux.org/title/NVIDIA_Optimus
+https://lantian.pub/en/article/modify-computer/laptop-muxed-nvidia-passthrough.lantian/
+
 amd replace amd_iommu
 
 /sys/bus/pci/devices
