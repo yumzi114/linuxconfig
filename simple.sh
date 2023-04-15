@@ -19,6 +19,7 @@ yay -Rs xdg-desktop-portal-gnome
 sudo pacman -S terminus-font noto-fonts-cjk ttf-dejavu tldr ibus ibus-hangul
 sudo cp local.conf /etc/fonts/
 cd ~/
+sudo systemctl enable fstrim.timer
 #git clone --recursive https://github.com/hyprwm/Hyprland
 #cd Hyprland
 #sudo make install
