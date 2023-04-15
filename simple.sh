@@ -16,7 +16,7 @@ sudo cp windows-rule.conf ~/.config/hypr/
 #sudo pacman -S xf86-video-intel
 #yay -Sy neofech xdg-desktop-portal-hyprland chromium fzf
 yay -Rs xdg-desktop-portal-gnome
-sudo pacman -S terminus-font noto-fonts-cjk ttf-dejavu tldr ibus ibus-hangul
+sudo pacman -S terminus-font noto-fonts-cjk ttf-dejavu tldr ibus ibus-hangul mesa lib32-mesa
 sudo cp local.conf /etc/fonts/
 cd ~/
 sudo systemctl enable fstrim.timer
