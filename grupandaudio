@@ -16,7 +16,7 @@ https://blandmanstudios.medium.com/tutorial-the-ultimate-linux-laptop-for-pc-gam
 
 펌웨어 fwupd
 yay -S alsa-utils
-
+pacman -S alsa-ucm-conf
 create 
 /etc/modprobe.d/dsp.conf
 options snd_intel_dspcfg dsp_driver=1
