@@ -58,7 +58,7 @@ else
     if [[ $TITUS == "Y" || $TITUS == "y" ]]; then
     git clone https://github.com/ChrisTitusTech/hyprland-titus.git
     cd hyprland-titus
-    exec ./set-hyor.sh
+    exec ./set-hypr.sh
     fi
 fi
 
