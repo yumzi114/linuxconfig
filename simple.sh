@@ -6,9 +6,9 @@ fi
 read -n1 -rep 'Install Nvidia(this package used DKMS,Optimus for laptop)? (y,n)' NVIDIA
 if [[ $NVIDIA == "Y" || $NVIDIA == "y" ]]; then
     sudo pacman -Sy nvidia-utils nvidia-dkms
-    git clone https://aur.archlinux.org/optimus-manager.git &>> $NINSTLOG
+    git clone https://aur.archlinux.org/optimus-manager.git
     cd optimus-manager
-    makepkg -si &>> ../$NINSTLOG
+    makepkg -si
     cd ..
 fi
 read -n1 -rep 'set another(ssd,audio set)? (y,n)' ANOTHER
@@ -19,9 +19,9 @@ if [[ $ANOTHER == "Y" || $ANOTHER == "y" ]]; then
 fi
 read -n1 -rep 'Install yay package manager? (y,n)' YAYP
 if [[ $YAYP == "Y" || $YAYP == "y" ]]; then
-    git clone https://aur.archlinux.org/yay-git.git &>> $INSTLOG
+    git clone https://aur.archlinux.org/yay-git.git
     cd yay-git
-    makepkg -si --noconfirm &>> ../$INSTLOG
+    makepkg -si --noconfirm
     cd ..
 fi
 read -n1 -rep 'Install Rust? (y,n)' RUST
