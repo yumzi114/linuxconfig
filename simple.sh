@@ -11,6 +11,12 @@ if [[ $NVIDIA == "Y" || $NVIDIA == "y" ]]; then
     makepkg -si &>> ../$NINSTLOG
     cd ..
 fi
+read -n1 -rep 'set another(ssd,audio set)? (y,n)' ANOTHER
+if [[ $ANOTHER == "Y" || $ANOTHER == "y" ]]; then
+    sudo cp dsp.conf /etc/modprobe.d/
+    sudo systemctl enable fstrim.timer
+    sleep 3
+fi
 read -n1 -rep 'Install yay package manager? (y,n)' YAYP
 if [[ $YAYP == "Y" || $YAYP == "y" ]]; then
     git clone https://aur.archlinux.org/yay-git.git &>> $INSTLOG
@@ -37,15 +43,12 @@ if [[ $CFG == "Y" || $CFG == "y" ]]; then
     cd ..
     sudo cp hyprland.conf ~/.config/hypr/
     sudo cp windows-rule.conf ~/.config/hypr/
-    sudo cp dsp.conf /etc/modprobe.d/
 #yay -Sy gdb ninja gcc cmake meson libxcb xcb-proto xcb-util xcb-util-keysyms libxfixes libx11 libxcomposite xorg-xinput libxrender pixman wayland-protocols cairo pango seatd libxkbcommon xcb-util-wm xorg-xwayland libinput libliftoff libdisplay-info 
 #sudo pacman -S xf86-video-intel
 #yay -Sy neofech xdg-desktop-portal-hyprland chromium fzf
     yay -Rs xdg-desktop-portal-gnome
     sudo cp local.conf /etc/fonts/
     cd ~/
-    sudo systemctl enable fstrim.timer
-    sleep 3
 #git clone --recursive https://github.com/hyprwm/Hyprland
 #cd Hyprland
 #sudo make install
