@@ -11,6 +11,11 @@ if [[ $NVIDIA == "Y" || $NVIDIA == "y" ]]; then
     makepkg -si
     cd ..
 fi
+read -n1 -rep 'edit grub?(iommu open, my device export vfio driver)? (y,n)' GRUB
+if [[ $GRUB == "Y" || $GRUB == "y" ]]; then
+    sudo cp grub /etc/default/
+    
+fi
 read -n1 -rep 'set another(ssd,audio set)? (y,n)' ANOTHER
 if [[ $ANOTHER == "Y" || $ANOTHER == "y" ]]; then
     sudo cp dsp.conf /etc/modprobe.d/
