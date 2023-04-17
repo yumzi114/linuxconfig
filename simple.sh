@@ -56,9 +56,10 @@ if [[ $CFG == "Y" || $CFG == "y" ]]; then
 else
     read -n1 -rep 'install Titus theme? (y,n)' TITUS
     if [[ $TITUS == "Y" || $TITUS == "y" ]]; then
-    git clone https://github.com/ChrisTitusTech/hyprland-titus &>> $TITUSLOG
+    
+    git clone https://github.com/ChrisTitusTech/hyprland-titus.git
     cd hyprland-titus
-    ./set-hyor.sh &>> ../$TITUSLOG
+    ./set-hyor.sh
     fi
 fi
 
