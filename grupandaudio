@@ -21,8 +21,8 @@ https://blandmanstudios.medium.com/tutorial-the-ultimate-linux-laptop-for-pc-gam
 https://www.youtube.com/watch?v=rA5iLjRTiZQ
 https://youtu.be/_DiCqr2y5As
 
-
-
+sudo virsh net-autostart default
+sudo virsh net-start default
 
 펌웨어 fwupd
 yay -S alsa-utils
