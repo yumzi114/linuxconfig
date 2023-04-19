@@ -2,6 +2,7 @@
 read -n1 -rep 'Install default pack? (y,n)' DEFAULT
 if [[ $DEFAULT == "Y" || $DEFAULT == "y" ]]; then
     sudo pacman -Sy linux-headers dkms base-devel terminus-font noto-fonts-cjk ttf-dejavu tldr ibus ibus-hangul mesa mesa-utils lib32-mesa
+    sudo cp system.conf /etc/systemd/
 fi
 read -n1 -rep 'Install Nvidia(this package used DKMS,Optimus for laptop)? (y,n)' NVIDIA
 if [[ $NVIDIA == "Y" || $NVIDIA == "y" ]]; then
@@ -46,6 +47,7 @@ if [[ $CFG == "Y" || $CFG == "y" ]]; then
     cp -r .icons ~/
     cp -r .gtkrc-2.0 ~/
     cd ..
+    sudo cp autostart.sh ~/.config/hypr/
     sudo cp hyprland.conf ~/.config/hypr/
     sudo cp windows-rule.conf ~/.config/hypr/
 #yay -Sy gdb ninja gcc cmake meson libxcb xcb-proto xcb-util xcb-util-keysyms libxfixes libx11 libxcomposite xorg-xinput libxrender pixman wayland-protocols cairo pango seatd libxkbcommon xcb-util-wm xorg-xwayland libinput libliftoff libdisplay-info 
