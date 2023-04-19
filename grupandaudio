@@ -13,6 +13,7 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg
 
 https://github.com/mysteryx93/GPU-Passthrough-with-Optimus-Manager-Guide
 https://lantian.pub/en/article/modify-computer/laptop-intel-nvidia-optimus-passthrough.lantian/
+https://lantian.pub/en/article/modify-computer/laptop-intel-nvidia-optimus-passthrough.lantian/
 
 https://dividebyzer0.gitlab.io/GPUpassthrough.html#what-you-need
 https://blog.desdelinux.net/en/install-intel-ati-and-nvidia-video-drivers-on-arch-linux/
