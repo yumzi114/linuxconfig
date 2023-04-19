@@ -23,6 +23,12 @@ https://youtu.be/_DiCqr2y5As
 
 sudo virsh net-autostart default
 sudo virsh net-start default
+<input type="evdev">
+      <source dev="/dev/input/by-id/usb-Logitech_G_PRO_Gaming_Mouse_0B8B315D3832-event-mouse"/>
+    </input>
+    <input type="evdev">
+      <source dev="/dev/input/by-path/pci-0000:00:14.0-usb-0:8:1.0-event-kbd" grab="all" grabToggle="ctrl-ctrl" repeat="on"/>
+    </input>
 
 펌웨어 fwupd
 yay -S alsa-utils
