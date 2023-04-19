@@ -11,11 +11,14 @@ amd replace amd_iommu
 /sys/bus/pci/devices
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 
+https://lantian.pub/en/article/modify-computer/laptop-intel-nvidia-optimus-passthrough.lantian/
 https://dividebyzer0.gitlab.io/GPUpassthrough.html#what-you-need
 https://blog.desdelinux.net/en/install-intel-ati-and-nvidia-video-drivers-on-arch-linux/
 https://blandmanstudios.medium.com/tutorial-the-ultimate-linux-laptop-for-pc-gamers-feat-kvm-and-vfio-dee521850385
 https://www.youtube.com/watch?v=rA5iLjRTiZQ
 https://youtu.be/_DiCqr2y5As
+
+
 
 
 펌웨어 fwupd
