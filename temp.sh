@@ -3,3 +3,24 @@ yay -S pokemon-colorscripts-git hyprland-git hyprpicker-git xdg-desktop-portal-h
 
 sudo pacman -R xdg-desktop-portal-wlr
 yay pacman -S xdg-desktop-portal-hyprland-git
+yay -S system76-power obs-studio wlrobs-hg v4l2loopback-dkms v4l2loopback-utils v4l-utils waydroid binder_linux-dkms chromium-wayland-vaapi qalculate-gtk qimgv-light rlr-git uget libreoffice-fresh nemo bulky --needed
+cd ~/Downloads
+git clone https://github.com/Fausto-Korpsvart/Tokyo-Night-GTK-Theme.git
+cd Tokyo-Night-GTK-Theme/
+sudo cp -r themes/Tokyonight-Dark-BL-LB /usr/share/themes/
+cd ~/Downloads
+git clone https://github.com/Fausto-Korpsvart/Tokyo-Night-GTK-Theme.git
+cd Tokyo-Night-GTK-Theme/
+sudo cp -r icons/Tokyonight-Moon /usr/share/icons/
+cd ~/Downloads
+git clone https://github.com/EliverLara/Sweet.git -b nova
+cd Sweet/
+sudo cp -r kde/cursors/Sweet-cursors /usr/share/icons/
+cd ~/Downloads
+git clone https://github.com/PROxZIMA/.dotfiles.git
+cd .dotfiles
+cp -r .config .icons .local .mpd .ncmpcpp .scripts ~/
+cp .face .fonts.conf .dmrc .gtkrc-2.0 ~/
+chmod -R +x ~/.scripts/
+chmod +x ~/.config/hypr/autostart
+chmod -R +x ~/.config/wlogout/
