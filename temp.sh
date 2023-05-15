@@ -4,6 +4,7 @@ yay -S pokemon-colorscripts-git hyprland-git hyprpicker-git xdg-desktop-portal-h
 sudo pacman -R xdg-desktop-portal-wlr
 yay pacman -S xdg-desktop-portal-hyprland-git
 yay -S system76-power obs-studio wlrobs-hg v4l2loopback-dkms v4l2loopback-utils v4l-utils waydroid binder_linux-dkms chromium-wayland-vaapi qalculate-gtk qimgv-light rlr-git uget libreoffice-fresh nemo bulky --needed
+sudo pacman -S gtk-engine-murrine
 cd ~/Downloads
 git clone https://github.com/Fausto-Korpsvart/Tokyo-Night-GTK-Theme.git
 cd Tokyo-Night-GTK-Theme/
